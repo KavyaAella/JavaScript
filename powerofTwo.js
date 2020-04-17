@@ -9,4 +9,4 @@ function isPowerOfTwoZeroCase(number) {
   return (number !== 0) && ((number & (number - 1)) === 0);
 }
 
-console.log(isPowerOfTwo(64)); // true
+console.log(isPowerOfTwo(1)); // true
