@@ -4,6 +4,7 @@ function fibonacci(num){
   while(num>=1){
       temp = a ;
       a = a+b;
+      
       b= temp;
       num--;
 

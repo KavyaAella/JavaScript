@@ -4,11 +4,12 @@ function sortedInteger(a,b){
     return a-b;
 }
 const ComputeIntegers = (unsorted)=>{
-    let sorted = unsorted.sort(sortedInteger),
-    product1 = 1,
+    let sorted = unsorted.sort(sortedInteger);
+    console.log(sorted )
+   let  product1 = 1,
     product2 = 1,
     arraylen = sorted.length-1;
-    console.log(sorted );
+    
     console.log(arraylen);
     for (var x = arraylen; x > arraylen - 3; x--) {
         product1 = product1 * sorted[x];
